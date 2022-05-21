@@ -1,0 +1,36 @@
+.font{
+    font-weight:700;
+    font-family: 'Inter', sans-serif;
+    width:100%;
+}
+
+
+.hover:hover {
+    background-color: #00000032;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+.active{
+    background-color: #00000032;
+    border-radius: 10px;
+}
+
+.hover-list:hover{
+    background-color: #00000032;
+}
+
+.active-list{
+    background-color: #00000032;
+}
+
+.list{
+    background-color: #323546;
+}
+
+.scroll{
+    height: 750px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
