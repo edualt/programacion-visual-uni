@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: Inter;
+    src: url("font/inter/Inter-V.ttf");
+}
+
+body{
+    font-family: Inter;
+}
+
 .font{
     font-weight:700;
     font-family: 'Inter', sans-serif;
@@ -25,7 +35,21 @@
     background-color: #00000032;
 }
 
+.card-border{
+    border: solid 10px #323546;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+
 .list{
+    background-color: #323546;
+}
+
+.card{
     background-color: #323546;
 }
 
@@ -34,3 +58,9 @@
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+.abs-center {
+    display: flex;
+    justify-content: center;
+
+  }
